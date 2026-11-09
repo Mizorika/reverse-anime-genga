@@ -1,0 +1,13 @@
+interface:
+  display_name: 动画成片逆向原画
+  short_description: 将动画截图逆向为白底原画稿，判断分层、省略、出框补画与作画标记
+  default_prompt: 使用 $reverse-anime-genga，将这张动画截图逆向为保留构图、合理分层和框外补画的白底原画稿。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
