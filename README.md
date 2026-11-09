@@ -1,3 +1,5 @@
+**简体中文** | [English](README-EN.md) | [日本語](README-JP.md)
+
 # 动画截图逆向原画 · Reverse Anime Genga
 
 将动画成片截图逆向为具有制作信息的日式动画原画稿的 AI Agent Skill。
