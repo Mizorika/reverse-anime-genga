@@ -98,4 +98,4 @@
 
 有关商业授权事宜，请通过 GitHub 仓库提供的联系方式联系作者。
 
-完整许可条款请参阅 [LICENSE](LICENSE)。
+完整许可条款请参阅 [LICENSE](LICENSE.md)。
