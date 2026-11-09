@@ -98,4 +98,4 @@ This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENS
 
 For commercial licensing inquiries, please contact the author through the contact information provided in the GitHub repository.
 
-For the complete license terms, please refer to [LICENSE](LICENSE).
+For the complete license terms, please refer to [LICENSE](LICENSE.md).
