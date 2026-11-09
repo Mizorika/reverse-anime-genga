@@ -86,6 +86,16 @@ Different studios and shots use different material groupings, line colors, and w
 
 Please report specific issues through the repository’s Issues. Describe the input scene, expected behavior, and actual discrepancy. For image-related issues, include the actual input and output where possible and identify the problem area.
 
-## License status
+## License and Commercial Use
 
-This repository does not currently specify an open-source license. Making this repository public does not change the rights associated with third-party tutorials, works, or related images.
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE).
+
+**Noncommercial Use:** Anyone may freely use, copy, modify, and redistribute this project and its modified versions for noncommercial purposes permitted under the license, provided that all applicable requirements concerning the retention of license terms and required notices are satisfied.
+
+**Commercial Use:** This project does not grant a free license for commercial use. Any individual or organization wishing to use this project or its modified versions for commercial purposes must contact the author in advance, obtain written authorization, and pay the agreed commercial licensing fee. The specific scope of the license and applicable fees will be determined through mutual agreement.
+
+**Third-Party Copyright:** This license applies only to original content that the author has the right to license. Copyrights and other rights associated with third-party tutorials, animation works, images, and other materials remain with their respective rights holders. Neither the public availability of this project nor the granting of a commercial license constitutes authorization to use such third-party content. Users are responsible for ensuring that their use complies with applicable copyright laws and licensing requirements.
+
+For commercial licensing inquiries, please contact the author through the contact information provided in the GitHub repository.
+
+For the complete license terms, please refer to [LICENSE](LICENSE).
