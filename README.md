@@ -1,12 +1,12 @@
-# 动画成片逆向原画 · Reverse Anime Genga
+# 动画截图逆向原画 · Reverse Anime Genga
 
 将动画成片截图逆向为具有制作信息的日式动画原画稿的 AI Agent Skill。
 
-它关注的是：**原画里应当留下什么信息，以及哪些内容应当省略。** 在保留镜头构图和角色造型的基础上，判断素材分层、背景简化、框外补画、阴影高光色线及功能性手写标记。
-
-An AI agent skill for reconstructing plausible Japanese animation key-drawing sheets from finished anime frames, with selective omission, purposeful cel grouping, off-frame structural completion, color-trace boundaries, and production annotations.
+本 skill 生成的是具有原画风格的图片，与真正用于动画制作的原画仍有明显差距。真实原画中的造型、分层、色线和标记服务于具体的动作设计及工序交接，而单张成片无法完整还原这些制作信息。生成结果中的框外补画、素材划分和注释包含推测，也可能存在错误，因此更适合作为视觉模拟等趣味性使用，不能视为原始制作资料的准确复原，也不能直接替代可用于后续制作的原画。
 
 ## 适合做什么
+
+它关注的是：**原画里应当留下什么信息，以及哪些内容应当省略。** 在保留镜头构图和角色造型的基础上，判断素材分层、背景简化、框外补画、阴影高光色线及功能性手写标记。
 
 - 将动画截图转换为白底、带取景框的原画示意稿。
 - 修订生成稿中的过度分层、背景过细、框外信息缺失、缺失色线等问题。
@@ -30,6 +30,10 @@ An AI agent skill for reconstructing plausible Japanese animation key-drawing sh
 | 版面 | 纯白平面，不展示纸纹、定位孔、字幕和平台水印 |
 
 各素材组的圈号可合理虚构，例如 A①、B③；它们不是从截图恢复出的真实生产编号，也不表示跨组的出场先后。
+
+## 版权风险提醒
+
+使用本 skill 处理商业动画截图时，输入素材及生成结果中保留的受保护内容可能涉及第三方版权。将成片转换为线稿或原画样式，并不会自动消除原作品的版权限制；注明来源、非商业用途或“仅供学习”也不当然构成免责。请在将素材上传至第三方 AI 服务，以及公开展示、传播、出售或以其他方式使用生成结果前，确认已取得必要授权，或该使用符合适用法律规定的版权例外。本项目不授予任何第三方作品的使用权。公开展示时请适当注明作品及来源，并明确说明结果为 AI 逆向生成的示意稿，避免使人误认为官方原画或实际制作资料。
 
 ## 使用方法
 
@@ -58,7 +62,6 @@ An AI agent skill for reconstructing plausible Japanese animation key-drawing sh
 - [SKILL.md](reverse-anime-genga/SKILL.md)：主流程、判断条件、固定输出要求与十项自查。
 - [production-knowledge.md](reverse-anime-genga/references/production-knowledge.md)：制作知识摘要、原始资料链接和适用边界。
 - [generation-guide.md](reverse-anime-genga/references/generation-guide.md)：生成提示词组织方式与局部修订模板。
-- [cases.md](reverse-anime-genga/references/cases.md)：围桌、桌前近景、搭肩双人、王座喝茶等镜头的取舍案例。
 - `agents/openai.yaml`：供兼容环境识别的名称、简介和默认调用提示。
 - `assets/icon.svg`：技能图标。
 
@@ -79,7 +82,7 @@ An AI agent skill for reconstructing plausible Japanese animation key-drawing sh
 
 ## 反馈
 
-欢迎通过仓库 Issues 提交具体问题。描述时注明输入场景、预期行为和实际偏差；涉及图像时尽量指出问题位置，例如“右侧肘部被纸边再次截断”或“引线周围出现白色擦除带”。
+欢迎通过仓库 Issues 提交具体问题。描述时注明输入场景、预期行为和实际偏差；涉及图像时尽量附带实际输入输出，并指出问题位置。
 
 ## 许可状态
 
